@@ -27,7 +27,9 @@ const MyOrders = () => {
     <div className="my-orders">
       <div className="my-orders-header">
         <h2>My Orders</h2>
-        <button onClick={fetchOrders}>Track all Orders</button>
+        <button onClick={fetchOrders} className="track">
+          Track all Orders
+        </button>
       </div>
 
       <div className="container">

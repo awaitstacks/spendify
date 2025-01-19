@@ -12,6 +12,9 @@
   justify-content: space-between;
   align-items: center;
 }
+.track {
+  background-color: #4fff33;
+}
 
 .my-orders-order {
   display: grid;
@@ -21,13 +24,13 @@
   font-size: 14px;
   padding: 10px 20px;
   color: #454545;
-  border: 1px solid tomato;
+  border: 1px solid #4fff33;
 }
 .my-orders-order img {
   width: 50px;
 }
 .my-orders-order p span {
-  color: tomato;
+  color: #4fff33;
 }
 .my-orders-order p b {
   font-weight: 500;

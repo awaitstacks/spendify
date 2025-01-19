@@ -8,13 +8,11 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
           <Link to="/">
-            <img src={assets.logo} alt="logo" />
+            <img src={assets.logo} alt="logo" className="logo" />
           </Link>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
-            laudantium sunt provident cumque voluptatibus asperiores sequi
-            delectus quidem temporibus odit eum laborum officia blanditiis ipsam
-            ex optio cupiditate minima consequuntur.
+            "The vibrant colors and intricate details of the painting drew the
+            eye, captivating the soul."
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="facebook icon" />
@@ -35,13 +33,14 @@ const Footer = () => {
           <h2>GET IN TOUCH</h2>
           <ul>
             <li>+91 9384336820</li>
-            <li>vinothkumbam0@gmail.com</li>
+            <li>awaitstacks@gmail.com</li>
           </ul>
         </div>
       </div>
       <hr />
+      <p className="footer-copyright">Crafted with 💗 in Madurai, India</p>
       <p className="footer-copyright">
-        Copyright 2024 @Tomato.com - All rights reserved
+        Copyright 2024 @heavenly.com - All rights reserved
       </p>
     </div>
   );

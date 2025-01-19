@@ -38,7 +38,7 @@ const Orders = ({ url }) => {
 
   return (
     <div className="order add">
-      <h3>Order page</h3>
+      <h3>Order's page</h3>
       <div className="order-list">
         {orders.map((order, index) => (
           <div key={index} className="order-item">
@@ -76,7 +76,7 @@ const Orders = ({ url }) => {
               onChange={(event) => statusHandler(event, order._id)}
               value={order.status}
             >
-              <option value="Food Processing">Food Processing</option>
+              <option value="Order Processing">Order Processing</option>
               <option value="Out for delivery">Out for delivery</option>
               <option value="Delivered">Delivered</option>
             </select>

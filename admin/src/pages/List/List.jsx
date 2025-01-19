@@ -41,7 +41,7 @@ const List = ({ url }) => {
   }, []);
   return (
     <div className="list add flex-col">
-      <p className="list-title">All Foods List</p>
+      <p className="list-title">All items list</p>
       <div className="list-table">
         {list.length > 0 ? (
           <>
@@ -69,8 +69,8 @@ const List = ({ url }) => {
           </>
         ) : (
           <p className="empty-list">
-            No food items to display ... Please add some receipies in database
-            to cook and serve you with data ... 😃
+            "Admin, we're selling dreams, not empty shelves. Where are the dress
+            items?🤔"
           </p>
         )}
       </div>

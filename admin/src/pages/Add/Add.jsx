@@ -9,7 +9,7 @@ const Add = ({ url }) => {
     name: "",
     description: "",
     price: "",
-    category: "salad",
+    category: "Sleeveless",
   });
   const onChangeHandler = (event) => {
     const name = event.target.name;
@@ -30,7 +30,7 @@ const Add = ({ url }) => {
     formData.append("image", image);
     const response = await axios.post(`${url}/api/food/add`, formData);
     if (response.data.success) {
-      setData({ name: "", description: "", price: "", category: "salad" });
+      setData({ name: "", description: "", price: "", category: "Sleevless" });
       setImage(false);
       toast.success(response.data.message);
     } else {
@@ -85,14 +85,14 @@ const Add = ({ url }) => {
           <div className="add-category flex-col">
             <p>Product category</p>
             <select name="category" onChange={onChangeHandler}>
-              <option value="Salad">Salad</option>
-              <option value="Rolls">Rolls</option>
-              <option value="Deserts">Deserts</option>
-              <option value="Sandwich">Sandwich</option>
-              <option value="Cake">Cake</option>
-              <option value="Pure veg">Pure veg</option>
-              <option value="Pasta">Pasta</option>
-              <option value="Noodles">Noodles</option>
+              <option value="Sleeveless">Sleeveless</option>
+              <option value="Striped">Striped</option>
+              <option value="Teenage dresses">Teenage dresses</option>
+              <option value="Plaid">Plaid</option>
+              <option value="Kids">Kids</option>
+              <option value="Polka dot">Polka dot</option>
+              <option value="Evening's">Evening's</option>
+              <option value="Wedding">Wedding</option>
             </select>
           </div>
           <div className="add-price flex-col">

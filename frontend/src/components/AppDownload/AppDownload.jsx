@@ -6,7 +6,7 @@ const AppDownload = () => {
     <div className="app-download" id="app-download">
       <p>
         For better experience download <br />
-        Tomato App
+        Heavenly App
       </p>
       <div className="app-download-platforms">
         <img src={assets.play_store} alt="" />
